@@ -42,6 +42,6 @@ Without using cmd/ternimal - - -
 
 ## Development
 
-Want to contribute? Great!
-Simply form the repo and start updating, It's open source ;)
+#### Want to contribute? Great!
+#### Simply form the repo and start updating, It's open source ;)
 © Gigahertz Legacy -SpiderX
