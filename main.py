@@ -45,6 +45,11 @@ while True:
             with open('html.txt', 'w') as HtmlFile:
                 HtmlFile.write(content)
                 HtmlFile.close()
+        elif user_input == 999:
+            print("Just Enter the tag name, ex: cite")
+            custom_tag_input = input("Enter the tag :")
+            cus_tag = soup.find_all(f'{custom_tag_input}')
+            print(cus_tag)
 
         elif user_input == 2:
             a_tag = soup.find_all('a')
