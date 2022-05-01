@@ -21,7 +21,7 @@ Without using cmd/ternimal - - -
 1. Download the Zip File From Code
 2. Extract it
 3. Go to the folder
-3. open cmd in that folder
+3. open cmd inside that folder
 4. python main.py 
 ```
  Using cmd /Terminal - - -
