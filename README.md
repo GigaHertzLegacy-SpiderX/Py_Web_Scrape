@@ -5,7 +5,7 @@
 
 - Get The Website whole Soruce Code in Pretty Look
 - lookup 20 pre-defined [Tag](https://github.com/GigaHertzLegacy-SpiderX/Py_Web_Scrape/blob/master/tag_list.py)
-- Allowrd Custom Tag
+- Allowed Custom Tag
 
 
 > You can add more function if you want, everything is avaialble there
@@ -22,13 +22,13 @@ Without using cmd/ternimal - - -
 2. Extract it
 3. Go to the folder
 3. open cmd in that folder
-4. python main_bd.py 
+4. python main.py 
 ```
  Using cmd /Terminal - - -
 
 ```sh
- git clone https://github.com/GigaHertzLegacy-SpiderX/Facebook-tools.git
- cd Facebook-tools
+ git clone https://github.com/GigaHertzLegacy-SpiderX/Py_Web_Scrape.git
+ cd Py_Web_Scrape
  pip install -r requirements.txt 
 ```
 
