@@ -135,6 +135,9 @@ while True:
         elif user_input == 404:
             tag_list.ALL_TAGS()
 
+        elif user_input == 909:
+            exit()
+
         else:
             print("Type between the given integers---")
 
