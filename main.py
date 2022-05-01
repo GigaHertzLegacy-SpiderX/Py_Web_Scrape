@@ -29,11 +29,12 @@ url = input("Enter the url : ")
 # Getting Source Code
 
 get_req = requests.get(url)
+content = get_req.content
 
 tag_list.ALL_TAGS()
 
 while True:
-    soup = BeautifulSoup(get_req.content, 'html.parser')
+    soup = BeautifulSoup(content, 'html.parser')
     try:
         user_input = int(input("Enter your Choice :"))
         print("\n")
@@ -43,7 +44,7 @@ while True:
 
         elif user_input == 111:
             with open('html.txt', 'w') as HtmlFile:
-                HtmlFile.write(content)
+                HtmlFile.write(str(content))
                 HtmlFile.close()
         elif user_input == 999:
             print("Just Enter the tag name, ex: cite")
