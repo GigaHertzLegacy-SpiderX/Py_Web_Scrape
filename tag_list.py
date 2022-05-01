@@ -24,7 +24,7 @@ def ALL_TAGS():
               
               ~~ For custom tag ~ 999
               ~~ See the tag list again ~ 404
-              ~~ Press ctrl + C to Exit
+              ~~ Press ctrl + C to Exit or ~ 909
 
               """)
 
