@@ -21,8 +21,8 @@ def ALL_TAGS():
               18. body
               19. canvas
               20. svg
-
-
+              
+              ~~ For custom tag ~ 999
               ~~ See the tag list again ~ 404
               ~~ Press ctrl + C to Exit
 
